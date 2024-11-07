@@ -1,9 +1,19 @@
-.nav-bar p{
-	font-size: 30px;
-	color: blueviolet;
+body{
+	color: red;
+	background-color: aqua;
+	font-family: arial;
 }
 
-.nav-bar{
-display: flex;
-justify-content: space-between;
+h1{
+	text-align: center;
+	color: olive;
 }
+
+p{
+	text-align: right;
+}
+
+.first {
+	text-align: right;
+}
+h2{color:ghostwhite;}
