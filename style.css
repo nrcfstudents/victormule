@@ -16,4 +16,14 @@ p{
 .first {
 	text-align: right;
 }
-h2{color:ghostwhite;}
+h2{color:ghostwhite;
+}
+table,th,td{border: 1px solid black;
+            width: 100%;
+}
+nav{text-align: center;
+Justify-content: center;
+Padding: 0;
+Margin: 0;
+Font-weight: bold;
+}
