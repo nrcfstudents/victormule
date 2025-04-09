@@ -1,12 +1,13 @@
 body{
-	color: red;
-	background-color: aqua;
-	font-family: arial;
+	color: #333;
+	padding: 20PX;
+	background:#00ffec;
+	font-family: algerian;
 }
 
 h1{
 	text-align: center;
-	color: olive;
+	color: pink;
 }
 
 p{
@@ -16,7 +17,7 @@ p{
 .first {
 	text-align: right;
 }
-h2{color:ghostwhite;
+h2{color:olive;
 }
 table,th,td{border: 1px solid black;
             width: 100%;
@@ -27,3 +28,24 @@ Padding: 0;
 Margin: 0;
 Font-weight: bold;
 }
+.project{
+	background: white;
+display: flex;15px
+gap: 15px;
+padding: 15px;
+}
+.project h2{color: blue;
+margin-bottom:8px; 
+}
+.project p{
+	color: salmon;
+	margin-bottom: 10px;
+}
+.project-content{flex: 1
+}
+.project image{width:100px; height:100px 
+boeder radius:10px;
+}
+.project-link{background-color:gold; border-radius: 5px; display:inline-block;
+}
+footer{font-size: 14px;}
