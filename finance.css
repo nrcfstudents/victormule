@@ -1,0 +1,132 @@
+body{
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.top-bar{
+ 	background-color: #a4c639;	
+    color: white;
+    font-size: 14px;
+    padding-left: 100px;
+    height: 30px;
+      display: flex;
+    justify-content: space-between;
+    padding-right: 100PX;
+    align-items: center;
+}
+.social-icons img{
+     width: 16px;
+    border-left: 1px solid white;
+    
+}
+.top-bar-left{                    
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+  
+.top-bar-left p{
+    margin: 0 ;
+    
+    border-left: 1px solid white;
+    
+}
+.top-bar-left p:last-child{
+    border-right: 1px solid white;
+}
+.social-icons img:last-child{
+    border-right: 1px solid white;
+}
+.about-section{
+  background: url("slide_01.jpg")center/cover no-repeat ;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 100px; 
+  margin: 0;
+  height: 60vh;
+  align-items: center;
+
+}
+.social-icons{
+ display: flex;
+ align-items: center;
+}
+ .nav-bar h2{
+    margin:0;
+ }
+.top-bar-left p,.social-icons img{
+    padding: 7px 7px;
+}
+.nav-bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:white;
+}
+.nav-bar-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Home{
+    color: #a4c639;
+}
+.nav-bar-link .Home{
+    color: #a4c639;
+    border-bottom: 2px solid #a4c639;
+}
+.about-info h3{
+    color: #a4c639;
+}
+.about-info h1{
+    color: white;
+}
+.about-info p{
+    color: white;
+    font-size: small;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.about-info a{
+    text-decoration: none;
+    color: white ;
+    background-color: #a4c639;
+    padding-bottom: 10px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20PX;
+    border-radius: 20px;
+}
+.about-info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+.call-request{
+    background-color: #a4c639;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.call-request{
+    border: 2px white;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+                
+}
