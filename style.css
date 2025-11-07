@@ -49,3 +49,6 @@ boeder radius:10px;
 .project-link{background-color:gold; border-radius: 5px; display:inline-block;
 }
 footer{font-size: 14px;}
+.card{background-color:gray;
+	border-radius: 10px;
+}
